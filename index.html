@@ -358,7 +358,7 @@ function press(k){
 function check(){
   checking=true;
   if(input==='1106'){
-    unlocked=true;$('hint').textContent='是窝包鸭！';
+    unlocked=true;input='';$('hint').textContent='是窝包鸭！';
     setTimeout(()=>{checking=false;go(4)},520);
   }else{
     $('hint').textContent='再想想，跟你有关奥。';
